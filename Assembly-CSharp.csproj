@@ -56,10 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MyAssets\Scripts\CharacterMovement.cs" />
     <Compile Include="Assets\MyAssets\Scripts\Gameplay\Interactable.cs" />
     <Compile Include="Assets\MyAssets\Scripts\Objects.cs" />
     <Compile Include="Assets\MyAssets\Scripts\Gameplay\IPlayerTriggerable.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\CharacterMovement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\MyAssets\Art\Model Materials\Voxel Toon.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
