@@ -133,6 +133,8 @@
 -r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll"
 -r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll"
 -r:"Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll"
+-r:"Assets/tripolygon/UModeler/Scripts/Editor/UModelerEditor.dll"
+-r:"Assets/tripolygon/UModeler/Scripts/UModelerCommon.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"

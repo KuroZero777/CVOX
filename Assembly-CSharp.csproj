@@ -62,7 +62,10 @@
     <Compile Include="Assets\MyAssets\Scripts\CharacterMovement.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\tripolygon\UModeler\Materials\Basic\UModeler_Wire.shader" />
+    <None Include="Assets\tripolygon\UModeler\Materials\Basic\UModeler_UnlitVertexColorShader.shader" />
     <None Include="Assets\MyAssets\Art\Model Materials\Voxel Toon.shader" />
+    <None Include="Assets\tripolygon\UModeler\Scripts\UModelerCommon.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -337,6 +340,9 @@
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UModelerCommon">
+      <HintPath>Assets\tripolygon\UModeler\Scripts\UModelerCommon.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
