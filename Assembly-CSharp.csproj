@@ -60,12 +60,16 @@
     <Compile Include="Assets\MyAssets\Scripts\Objects.cs" />
     <Compile Include="Assets\MyAssets\Scripts\Gameplay\IPlayerTriggerable.cs" />
     <Compile Include="Assets\MyAssets\Scripts\CharacterMovement.cs" />
+    <Compile Include="Assets\FXAA\Scripts\FXAA.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\tripolygon\UModeler\Materials\Basic\UModeler_Wire.shader" />
+    <None Include="Assets\FXAA\README.txt" />
+    <None Include="Assets\FXAA\Shaders\Fxaa3_9.cginc" />
     <None Include="Assets\tripolygon\UModeler\Materials\Basic\UModeler_UnlitVertexColorShader.shader" />
     <None Include="Assets\MyAssets\Art\Model Materials\Voxel Toon.shader" />
     <None Include="Assets\tripolygon\UModeler\Scripts\UModelerCommon.dll" />
+    <None Include="Assets\FXAA\Shaders\Fxaa3.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -332,6 +336,9 @@
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
+    <Reference Include="UModelerCommon">
+      <HintPath>Assets\tripolygon\UModeler\Scripts\UModelerCommon.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -340,9 +347,6 @@
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UModelerCommon">
-      <HintPath>Assets\tripolygon\UModeler\Scripts\UModelerCommon.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

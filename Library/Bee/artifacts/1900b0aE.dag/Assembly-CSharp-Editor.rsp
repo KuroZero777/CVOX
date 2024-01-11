@@ -380,6 +380,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/FXAA/Scripts/Editor/FXAAEditor.cs"
+"Assets/FXAA/Scripts/Editor/StartScreen.cs"
 "Assets/tripolygon/UModeler/Scripts/PureCode/Editor/MeshFilterEditor.cs"
 "Assets/tripolygon/UModeler/Scripts/PureCode/Editor/PrefabUtilityEditor.cs"
 "Assets/tripolygon/UModeler/Scripts/PureCode/Editor/TransformEditor.cs"

@@ -56,10 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\tripolygon\UModeler\Scripts\PureCode\Editor\MeshFilterEditor.cs" />
     <Compile Include="Assets\tripolygon\UModeler\Scripts\PureCode\Editor\UModelerEditorInitializer.cs" />
-    <Compile Include="Assets\tripolygon\UModeler\Scripts\PureCode\Editor\PrefabUtilityEditor.cs" />
+    <Compile Include="Assets\tripolygon\UModeler\Scripts\PureCode\Editor\MeshFilterEditor.cs" />
     <Compile Include="Assets\tripolygon\UModeler\Scripts\PureCode\Editor\TransformEditor.cs" />
+    <Compile Include="Assets\tripolygon\UModeler\Scripts\PureCode\Editor\PrefabUtilityEditor.cs" />
+    <Compile Include="Assets\FXAA\Scripts\Editor\FXAAEditor.cs" />
+    <Compile Include="Assets\FXAA\Scripts\Editor\StartScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\tripolygon\UModeler\Scripts\Editor\UModelerEditor.dll" />
@@ -347,6 +349,9 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="UModelerEditor">
+      <HintPath>Assets\tripolygon\UModeler\Scripts\Editor\UModelerEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Serialization.Config">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
     </Reference>
@@ -359,6 +364,9 @@
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
+    <Reference Include="UModelerCommon">
+      <HintPath>Assets\tripolygon\UModeler\Scripts\UModelerCommon.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -367,12 +375,6 @@
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UModelerEditor">
-      <HintPath>Assets\tripolygon\UModeler\Scripts\Editor\UModelerEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UModelerCommon">
-      <HintPath>Assets\tripolygon\UModeler\Scripts\UModelerCommon.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
