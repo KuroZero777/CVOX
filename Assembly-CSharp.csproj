@@ -56,11 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MyAssets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\FXAA\Scripts\FXAA.cs" />
     <Compile Include="Assets\MyAssets\Scripts\Gameplay\Interactable.cs" />
     <Compile Include="Assets\MyAssets\Scripts\Objects.cs" />
     <Compile Include="Assets\MyAssets\Scripts\Gameplay\IPlayerTriggerable.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\Player.cs" />
     <Compile Include="Assets\MyAssets\Scripts\CharacterMovement.cs" />
-    <Compile Include="Assets\FXAA\Scripts\FXAA.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\tripolygon\UModeler\Materials\Basic\UModeler_Wire.shader" />

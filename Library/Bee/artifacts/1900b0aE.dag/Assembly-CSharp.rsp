@@ -364,9 +364,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/FXAA/Scripts/FXAA.cs"
 "Assets/MyAssets/Scripts/CharacterMovement.cs"
+"Assets/MyAssets/Scripts/Enemy.cs"
 "Assets/MyAssets/Scripts/Gameplay/Interactable.cs"
 "Assets/MyAssets/Scripts/Gameplay/IPlayerTriggerable.cs"
 "Assets/MyAssets/Scripts/Objects.cs"
+"Assets/MyAssets/Scripts/Player.cs"
 -langversion:9.0
 
 /deterministic

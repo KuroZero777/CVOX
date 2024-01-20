@@ -57,11 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\tripolygon\UModeler\Scripts\PureCode\Editor\UModelerEditorInitializer.cs" />
+    <Compile Include="Assets\FXAA\Scripts\Editor\StartScreen.cs" />
     <Compile Include="Assets\tripolygon\UModeler\Scripts\PureCode\Editor\MeshFilterEditor.cs" />
     <Compile Include="Assets\tripolygon\UModeler\Scripts\PureCode\Editor\TransformEditor.cs" />
     <Compile Include="Assets\tripolygon\UModeler\Scripts\PureCode\Editor\PrefabUtilityEditor.cs" />
     <Compile Include="Assets\FXAA\Scripts\Editor\FXAAEditor.cs" />
-    <Compile Include="Assets\FXAA\Scripts\Editor\StartScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\tripolygon\UModeler\Scripts\Editor\UModelerEditor.dll" />

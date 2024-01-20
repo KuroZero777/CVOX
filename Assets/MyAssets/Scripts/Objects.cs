@@ -9,7 +9,7 @@ public class Objects : MonoBehaviour, Interactable, IPlayerTriggerable
         Debug.Log("Interact");
     }
 
-    public void OnPlayerTriggered(CharacterMovement player)
+    public void OnPlayerTriggered(Player player)
     {
         Debug.Log("InteractPlayer");
     }
